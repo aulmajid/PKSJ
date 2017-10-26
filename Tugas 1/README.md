@@ -132,4 +132,10 @@ maxretry = 3
 1. Untuk menjalankan, jalankan perintah `sudo service fail2ban start`.
 1. Untuk menghentikan, jalankan perintah `sudo service fail2ban stop`.
 
+#### Uji Coba
+output:
+```
+
+```
+
 ## Kesimpulan dan Saran
