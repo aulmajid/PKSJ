@@ -128,7 +128,7 @@ Pada OS yang digunakan untuk penetrasi, lakukan langkah berikut :
 1. Buka terminal.
 1. Ketikkan perintah `hydra -l [user] -P [passlist.txt] [remote_ip] ssh`, contoh: `hydra -l pksj -P 500-worst-passwords.txt 10.0.2.4 ssh`
 1. Output :
-![Penetrasi THC-Hydra](Tugas 1/fail2ban/Output Hasil Pertama.png)
+![Penetrasi hydra](Tugas 1/Ujicoba/Hydra.png)
 
 
 #### Uji penetrasi menggunakan Ncrack
@@ -136,7 +136,7 @@ Pada OS yang digunakan untuk penetrasi, lakukan langkah berikut :
 1. Buka terminal.
 1. Ketikkan perintah `ncrack -p 22 --user [user] -P [passlist.txt] [remote_ip]`, contoh: `ncrack -p 22 --user pksj -P 500-worst-passwords.txt 10.0.2.4`
 1. Output :
-![Penetrasi ncrack](Tugas 1/fail2ban/Output Hasil Pertama.png)
+![Penetrasi ncrack](Tugas 1/Ujicoba/Ncrack.png)
 
 ## Uji Penetrasi 2
 
