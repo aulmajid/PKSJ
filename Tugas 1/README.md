@@ -36,7 +36,7 @@ SSH brute force attack adalah saat seorang di luar sistem ingin masuk ke dalam s
 adalah perangkat lunak virtualisasi, yang dapat digunakan untuk mengeksekusi sistem operasi "tambahan" di dalam sistem operasi "utama". Sebagai contoh, jika seseorang mempunyai sistem operasi MS Windows yang terpasang di komputernya, maka seseorang tersebut dapat pula menjalankan sistem operasi lain yang diinginkan di dalam sistem operasi MS Windows.
 
 #### Ubuntu Server
-system operasi turunan dari Linux Ubuntu yang di desain khusus dengan kernel yang telah dikustomisasi untuk bekerja sebagai system operasi server.
+Ubuntu Server adalah sebuah system operasi turunan dari Linux Ubuntu yang di desain khusus dengan kernel yang telah dikustomisasi untuk bekerja sebagai system operasi server.
 
 #### Xubuntu
 Xubuntu adalah varian dari Ubuntu yang menggunakan desktop environment Xfce. Xubuntu dipilih karena lebih ringan dan ukurannya lebih kecil dari Ubuntu, sehingga spesifikasi hardware yang dibutuhkan lebih rendah dari Ubuntu. Xubuntu dapat diunduh dari halaman resminya yaitu https://xubuntu.org .
@@ -45,13 +45,13 @@ Xubuntu adalah varian dari Ubuntu yang menggunakan desktop environment Xfce. Xub
 File txt perisi 500 buah password yang digunakan dalam uji coba ini. File ini dapat diunduh di https://wiki.skullsecurity.org/images/c/ca/500-worst-passwords.txt .
 
 #### THC-Hydra
-Sebuah tools crack yang semakin unggul dalam hal exploit dan THC-Hydra salah satu yang sangat cepat meretas jaringan logon cracker yang mendukung banyak layanan yang berbeda. Dapat didownload di http://sectools.org/tool/hydra/
+THC-Hydra adalah sebuah tools crack yang semakin unggul dalam hal exploit dan THC-Hydra salah satu yang sangat cepat meretas jaringan logon cracker yang mendukung banyak layanan yang berbeda. Dapat didownload di http://sectools.org/tool/hydra/
 
 #### Ncrack
-adalah alat cracking otentikasi jaringan berkecepatan tinggi. Ini dibangun untuk membantu perusahaan mengamankan jaringan mereka dengan secara proaktif menguji semua host dan perangkat jaringan mereka dengan kata kunci yang buruk. Profesional keamanan juga mengandalkan Ncrack saat mengaudit klien mereka. Dapat diunduh di https://nmap.org/ncrack/
+Ncrack adalah alat cracking otentikasi jaringan berkecepatan tinggi. Ini dibangun untuk membantu perusahaan mengamankan jaringan mereka dengan secara proaktif menguji semua host dan perangkat jaringan mereka dengan kata kunci yang buruk. Profesional keamanan juga mengandalkan Ncrack saat mengaudit klien mereka. Dapat diunduh di https://nmap.org/ncrack/
 
-#### fail2ban
-adalah package keamanan yang digunakan untuk mencegah serangan brute-force dan DDoS pada linux. Fail2ban bekerja dengan memonitor jumlah kegagalan login untuk selanjutnya memblok ip address dari login yang gagal tersebut. dapat diunduh di https://www.fail2ban.org/wiki/index.php/Downloads
+#### Fail2ban
+Fail2ban adalah package keamanan yang digunakan untuk mencegah serangan brute-force dan DDoS pada linux. Fail2ban bekerja dengan memonitor jumlah kegagalan login untuk selanjutnya memblok ip address dari login yang gagal tersebut. dapat diunduh di https://www.fail2ban.org/wiki/index.php/Downloads
 
 ## Uji Penetrasi 1
 
@@ -108,7 +108,7 @@ Pada OS yang digunakan untuk penetrasi, lakukan langkah berikut :
 1. Buka terminal. 
 1. Jalankan perintah `sudo apt-get install hydra`.
 
-#### Instalasai Ncrack
+#### Instalasi Ncrack
 Pada OS yang digunakan untuk penetrasi, lakukan langkah berikut :
 1. Install g++ terlebih dahulu dengan menjalankan perintah `sudo apt-get isntall g++`.
 1. Download Ncrack release tarball di https://nmap.org/ncrack .
@@ -179,6 +179,7 @@ maxretry = 3
 
 #### Uji Coba Menggunakan NCrack
 
+![Uji NCrack](Ujicoba/Ncrack-fail2ban%20-%20Output%20Hasil%20Pertama.PNG)
 
 ## Kesimpulan dan Saran
 1. Penetrasi bisa dilakukan secara bruteforce dengan menggunakan aplikasi, contohnya Hydra dan NCrack.
