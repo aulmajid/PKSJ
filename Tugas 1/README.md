@@ -110,4 +110,28 @@ Ncrack finished.
 
 ## Uji Penetrasi 2
 
+#### Instalasi fail2ban`
+Pada Ubuntu Server, lakukan langkah berikut :
+1. Buka terminal. 
+1. Jalankan perintah `sudo apt-get install fail2ban`.
+
+#### Konfigurasi fail2ban
+1. Buka file jail.conf dengan cara `nano /etc/fail2ban/jail.conf`.
+1. Terdapat beberapa variabel untuk diubah. Diantaranya sebagai berikut:
+```
+ignoreip untuk mengabaikan ip asal yang disebutkan
+bantime untuk menentukan waktu lama user dibanned
+findtime dan maxretry untuk menentukan waktu dan jumlah maksimal percobaan dalam proses infiltrasi.
+```
+1. Contoh untuk membatasi penetrasi sebanyak 3 kali dalam waktu 600 detik:
+```
+findtime = 600
+maxretry = 3
+```
+
+
+#### Menjalankan dan Mematikan fail2ban
+1. Untuk menjalankan, jalankan perintah `sudo service fail2ban start`.
+1. Untuk menghentikan, jalankan perintah `sudo service fail2ban stop`.
+
 ## Kesimpulan dan Saran
