@@ -128,7 +128,8 @@ Pada OS yang digunakan untuk penetrasi, lakukan langkah berikut :
 1. Buka terminal.
 1. Ketikkan perintah `hydra -l [user] -P [passlist.txt] [remote_ip] ssh`, contoh: `hydra -l pksj -P 500-worst-passwords.txt 10.0.2.4 ssh`
 1. Output :
-![Penetrasi hydra](Ujicoba/Hydra.png)
+
+!(Ujicoba/Hydra.PNG)
 
 
 #### Uji penetrasi menggunakan Ncrack
@@ -136,7 +137,8 @@ Pada OS yang digunakan untuk penetrasi, lakukan langkah berikut :
 1. Buka terminal.
 1. Ketikkan perintah `ncrack -p 22 --user [user] -P [passlist.txt] [remote_ip]`, contoh: `ncrack -p 22 --user pksj -P 500-worst-passwords.txt 10.0.2.4`
 1. Output :
-![Penetrasi ncrack](Ujicoba/Ncrack.png)
+
+!(Ujicoba/Ncrack.PNG)
 
 ## Uji Penetrasi 2
 
@@ -168,4 +170,4 @@ maxretry = 3
 ## Kesimpulan dan Saran
 1. Penetrasi bisa dilakukan secara bruteforce dengan menggunakan aplikasi, contohnya Hydra dan NCrack.
 1. Penetrasi dapat dicegah dengan memakai password yang rumit atau juga bisa dengan cara menggunakan tools pencegah penetrasi contohnya fail2ban.
-1. Ketika penetrasi memakai NCrack tools hanya memberitahukan bahwa pemindaian selesai tanpa memberi tahu apa password. Kami pun mencoba OS lain di laptop lain, tetapi hasilnya sama.
+1. Ketika penetrasi memakai NCrack tools hanya memberitahukan bahwa pemindaian selesai tanpa memberi tahu apa password. Kami pun mencoba OS lain(Ubuntu) di laptop lain, tetapi hasilnya sama.
