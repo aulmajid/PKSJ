@@ -68,8 +68,26 @@ Pada aplikasi VirtualBox, lakukan langkah berikut :
 1. Lakukan proses ini dua kali, satu untuk Ubuntu Server dan satu untuk OS penetrasi.
 
 #### Instalasi Ubuntu Server
+Pada aplikasi VirtualBox, lakukan langkah berikut :
 1. Pilih Virtual Machine untuk Ubuntu Server lalu klik tombol **Start**.
-1. Pilih disk image blabla
+1. Pilih disk image Ubuntu Server 16.04.3
+1. pilih bahasa komputer.
+1. Masuk halaman depan instalasi Xubuntu, pilih bahasa lalu klik **Install Ubuntu Server**.
+1. Pilih bahasa instalasi.
+1. Pilih lokasi atau zona waktu.
+1. Pilih layout keyboard.
+1. Masukan Hostname.
+1. Masukan Nama User.
+1. Masukan Nama Username.
+1. Masukan Password.
+1. Pilih **Guided - use entire disk and set up LVM**
+1. Pilih partisi.
+1. Atur ukuran partisi
+1. Isi HTTP Proxy seperlunya.
+1. Pilih metode update ubuntu seperlunya.
+1. Tambahkan opsi openSSH server.
+1. Pilih install GRUB seperlunya.
+1. Klik contunue untuk restart.
 
 
 #### Instalasi Xubuntu
