@@ -139,3 +139,6 @@ output:
 ```
 
 ## Kesimpulan dan Saran
+1. Penetrasi bisa dilakukan secara bruteforce dengan menggunakan aplikasi, contohnya Hydra dan NCrack.
+1. Penetrasi dapat dicegah dengan memakai password yang rumit atau juga bisa dengan cara menggunakan tools pencegah penetrasi contohnya fail2ban.
+1. Ketika penetrasi memakai NCrack tools hanya memberitahukan bahwa pemindaian selesai tanpa memberi tahu apa password.
