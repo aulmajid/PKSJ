@@ -1,7 +1,34 @@
 # Tugas 1
 
-## Pendahuluan
-blala
+**Anggota Kelompok**
+
+| NRP         | Nama                        |
+|-------------|-----------------------------|
+| 5114100018  | Alek Nur Fatman             |
+| 5114100077  | M Hanif Amrizal             |
+| 5114100144  | Ilham Aulia Majid           |
+
+## Laporan Tugas 1
+
+**Uji Penetrasi 1 :**
+* Install sebuah virtual OS dengan Ubuntu Server
+* Install SSH server dengan konfigurasi default
+* Install satu lagi virtual OS dengan OS bebas
+* Pastikan tools untuk SSH brute force attack sudah terinstall
+* Lakukan uji penetrasi 1: dengan THC-Hydra / Ncrack dan catat hasil uji penetrasi 1
+
+**Uji Penetrasi 2 :**
+* Install fail2ban pada Ubuntu server yang telah diinstall SSH servernya
+* Konfigurasilah SSH server agar tidak menggunakan setting default lagi
+* Lakukan uji penetrasi 2 dengan tools yang sama dan catat hasilnya
+
+### Pendahuluan
+
+SSH(Secure Shell) adalah  sebuah protokol jaringan kriptografi untuk komunikasi data yang aman, login antarmuka baris perintah, perintah eksekusi jarak jauh, dan layanan jaringan lainnya antara dua jaringan komputer. Ini terkoneksi, melalui saluran aman atau melalui jaringan tidak aman, server dan klien menjalankan server SSH dan SSH program klien secara masing-masing.
+Terdapat 2 versi SSH yaitu SSH 1 dan SSH 2. bedanya terletak pada mencakup kedua fitur keamanan dan peningkatan perbaikan tingkat keamanan yang disediakan.
+Sebagai contoh, applikasi menggunakan ssh adalah openssh.(https://id.wikipedia.org/wiki/SSH)
+
+SSH brute force attack adalah saat seorang di luar sistem ingin masuk ke dalam sistem yang memiliki username dan password dengan menggunakan 1 list file yang isinya adalah kumpulan dari kemungkinan password untuk username tersebut. Sehingga diperlukan waktu yang cukup lama untuk melakukan proses brute force dan itu juga terdapat kemungkinan password tidak cocok dengan password sebenarnya. (https://en.wikipedia.org/wiki/Brute-force_attack)
 
 ## Dasar Teori
 
