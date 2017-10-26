@@ -121,7 +121,7 @@ Pada Ubuntu Server, lakukan langkah berikut :
 > - ignoreip untuk mengabaikan ip asal yang disebutkan
 > - bantime untuk menentukan waktu lama user dibanned
 > - findtime dan maxretry untuk menentukan waktu dan jumlah maksimal percobaan dalam proses infiltrasi.
-1. Contoh untuk membatasi penetrasi sebanyak 3 kali dalam waktu 600 detik:
+3. Contoh untuk membatasi penetrasi sebanyak 3 kali dalam waktu 600 detik:
 ```
 findtime = 600
 maxretry = 3
