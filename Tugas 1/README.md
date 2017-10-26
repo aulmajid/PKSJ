@@ -83,30 +83,14 @@ Pada OS yang digunakan untuk penetrasi, lakukan langkah berikut :
 1. Buka terminal.
 1. Ketikkan perintah `hydra -l [user] -P [passlist.txt] [remote_ip] ssh`, contoh: `hydra -l pksj -P 500-worst-passwords.txt 10.0.2.4 ssh`
 1. Output :
-```
-Hydra v8.1 (c) 2014 by van Hauser/THC - Please do not use in military or secret service organizations, or for illegal purposes.
-Hydra (http://www.thc.org/thc-hydra) starting at 2017-10-24 09:41:22
-[WARNING] Many SSH configurations limit the number of parallel tasks, it is recommended to reduce the tasks: use -t 4
-[DATA] max 16 tasks per 1 server, overall 64 tasks, 500 login tries (l:1/p:500), ~0 tries per task
-[DATA] attacking service ssh on port 22
-[22][ssh] host: 10.0.2.4   login: pksj   password: 1234
-1 of 1 target successfully completed, 1 valid password found
-Hydra (http://www.thc.org/thc-hydra) finished at 2017-10-24 09:41:25
-```
+
 
 #### Uji penetrasi menggunakan Ncrack
 Pada OS yang digunakan untuk penetrasi, lakukan langkah berikut :
 1. Buka terminal.
 1. Ketikkan perintah `ncrack -p 22 --user [user] -P [passlist.txt] [remote_ip]`, contoh: `ncrack -p 22 --user pksj -P 500-worst-passwords.txt 10.0.2.4`
 1. Output :
-```
-Starting Ncrack 0.5 ( http://ncrack.org ) at 2017-10-24 09:41 WIB
 
-Ncrack done: 1 service scanned in 78.03 seconds.
-
-Ncrack finished.
-
-```
 
 ## Uji Penetrasi 2
 
@@ -133,10 +117,7 @@ maxretry = 3
 1. Untuk menghentikan, jalankan perintah `sudo service fail2ban stop`.
 
 #### Uji Coba
-output:
-```
 
-```
 
 ## Kesimpulan dan Saran
 1. Penetrasi bisa dilakukan secara bruteforce dengan menggunakan aplikasi, contohnya Hydra dan NCrack.
