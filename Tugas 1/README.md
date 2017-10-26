@@ -164,18 +164,20 @@ maxretry = 3
 1. Untuk menjalankan, jalankan perintah `sudo service fail2ban start`.
 1. Untuk menghentikan, jalankan perintah `sudo service fail2ban stop`.
 
-#### Uji Coba
+#### Uji Coba Menggunakan Hydra
 1. Hasil penetrasi setelah fail2ban pertama kali dijalankan(password berada di baris sebelum maxretry)
 
 ![Uji awal](Ujicoba/Hydra-fail2ban%20-%20Output%20Hasil%20Pertama.png)
 
-1. Hasil setelah percobaan penetrasi melewati maxretry
+2. Hasil setelah percobaan penetrasi melewati maxretry
 
 ![Uji ban](Ujicoba/Hydra-fail2ban%20-%20Output%20Hasil%20Saat%20diban.png)
 
-1. Hasil setelah melewati masa banned
+3. Hasil setelah melewati masa banned
 
 ![Uji ban](Ujicoba/Hydra-fail2ban%20-%20Output%20Hasil%20Setelah%20diban.png)
+
+#### Uji Coba Menggunakan NCrack
 
 
 ## Kesimpulan dan Saran
