@@ -8,28 +8,31 @@
 | 5114100144  | Ilham Aulia Majid           |
 
 ## Pendahuluan
-
+blabla
 
 
 ## Dasar Teori
 
 #### OS
-
+blabla
 
 #### Wordpress
+blbla
+
+#### Spider Video Player
+blabla
+
+#### League Manager
+blabla
+
+#### WPScan
+blabla
+
+#### sqlmap
+blabla
 
 
-#### Plugin 1
-
-
-#### Plugin 2
-
-
-#### Tools 1
-
-
-
-## Instalasi Wordpress dan Vulnerable Plugin
+## Instalasi Wordpress, Vulnerable Plugins, dan Tools untuk Penetrasi
 
 #### Instalasi LAMP
 1. Buka terminal.
@@ -43,7 +46,7 @@ sudo systemctl start apache2
 #### Instalasi Wordpress
 1. Unduh wordpress tarball di http://wordpress.org/latest.tar.gz
 2. Ekstrak ke direktori /var/www/html dengan perintah `tar -xvzf wordpress-4.8.3.tar.gz -C /var/www/html `.
-3. 
+3. Buka `http://localhost/wordpress/wp-admin/install.php` dan ikuti prosedur yang ada.
 
 #### Instalasi Plugin Video Player
 1. Unduh plugin di https://wordpress.org/plugins/player/
@@ -54,7 +57,9 @@ sudo systemctl start apache2
 2. Ekstrak plugin ke /var/www/html/wordpress/wp-content/plugins dengan perintah `unzip leaguemanager.4.2-RC1.3.zip -d /var/www/html/wordpress/wp-content/plugins`.
 
 #### Aktivasi Plugin
-1. Masuk ke 
+1. Buka halaman `http://localhost/wordpress/wp-admin/plugins.php`.
+2. Centang LeagueManager dan Spider Video Player.
+3. Pilih aksi `Activate` lalu klik `Apply`.
 
 #### Instalasi WPScan
 1. Instal prerequisites dengan perintah `sudo apt-get install git libcurl4-openssl-dev libxml2 libxml2-dev libxslt1-dev ruby-dev build-essential libgmp-dev zlib1g-dev`.
@@ -69,7 +74,7 @@ sudo systemctl start apache2
 5. Untuk menjalankan WPScan gunakan python `python sqlmap.py [options]`.
 
 ## Uji Penetrasi SQL Injection
-
+blabla
 
 ## Kesimpulan dan Saran
 1. blabla
