@@ -74,7 +74,18 @@ sudo systemctl start apache2
 5. Untuk menjalankan WPScan gunakan python `python sqlmap.py [options]`.
 
 ## Uji Penetrasi SQL Injection
-blabla
+
+#### Uji WPScan
+1. Update terlebih dahulu database WPScan dengan perintah `ruby wpscan.rb --update`.
+2. Jalankan perintah `wpscan -u [alamat_wordpress] --enumerate vp`, contoh: `ruby wpscan.rb --u http://localhost/wordpress --enumerate vp`.
+3. Output :
+![WPScan](Hasil%20WPScan/WPScan%201.png)
+![WPScan](Hasil%20WPScan/WPScan%202.png)
+![WPScan](Hasil%20WPScan/WPScan%203.png)
+
+
+#### Uji sqlmap
+1. Jalankan perintah 
 
 ## Kesimpulan dan Saran
 1. blabla
