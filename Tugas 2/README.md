@@ -8,28 +8,28 @@
 | 5114100144  | Ilham Aulia Majid           |
 
 ## Pendahuluan
-blabla
+Sql Injection : SQL injection adalah sebuah teknik hacking yang menyalahgunakan celah keamanan pada database dari aplikasi. cara kerjanya adalah dengan menyisipkan perintah-perintah SQL melalu URL untuk di eksekusi oleh database.
 
 
 ## Dasar Teori
 
-#### OS
-blabla
+#### OS Ubuntu 16.04
+Ubuntu 16.04 adalah sistem operasi distribusi linux yang berbasis debian dan bersifat Open Source.
 
 #### Wordpress
-blbla
+Wordpress adalah aplikasi open source yang digunakan sebagai blog engine. Wordpress menggunakan bahasa pemrograman PHP dan basis data MySQL. Wordpress juga digunakan sebagai CMS (Content Management System) karena memiliki kemampuan untuk dimodifikasi dan disesuaikan dengan kebutuhan penggunanya.
 
 #### Spider Video Player
-blabla
+Spider Video Player adalah salah satu plugin Wordpress yang menyediakan fitur untuk memasukkan video ke website Wordpress. 
 
 #### League Manager
-blabla
+League Manager adalah plugin yang digunakan untuk menampilkan hasil dari sebuah pertandingan pada website wordpress.
 
 #### WPScan
-blabla
+WPScan adalah tools vulnerability scanner untuk CMS Wordpress yang memeriksa keamanan WordPress menggunakan metode “black box”. WPScan ini ditulis dengan bahasa ruby.
 
 #### sqlmap
-blabla
+Sqlmap adalah tools opensource yang mendeteksi dan melakukan exploit pada bug SQL injection secara otomatis. dengan melakukan serangan SQL injection seorang attacker dapat mengambil alih serta memanipulasi sebuah database di dalam sebuah server.
 
 
 ## Instalasi Wordpress, Vulnerable Plugins, dan Tools untuk Penetrasi
