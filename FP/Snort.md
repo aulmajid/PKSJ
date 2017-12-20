@@ -75,6 +75,7 @@ var BLACK_LIST_PATH /etc/snort/rules
 include $RULE_PATH/local.rules
 ```
 ![](snort/6.PNG)
+
 ![](snort/7.PNG)
 - Lalu jalankan konfigurasi tadi dengan perintah berikut
 ```
@@ -82,4 +83,4 @@ snort -T -i eth0 -c /etc/snort/snort.conf
 snort -T -i enp0s3 -c /etc/snort/snort.conf
 ```
 - Hasilnya error
-![](snort/8.PNG)
+![](snort/8_error.PNG)
