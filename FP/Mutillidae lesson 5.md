@@ -1,16 +1,29 @@
-# Tugas FP
-**Anggota Kelompok**
+#### LESSON 5
 
-| NRP         | Nama                        |
-|-------------|-----------------------------|
-| 5114100018  | Alek Nur Fatman             |
-| 5114100077  | M Hanif Amrizal             |
-| 5114100144  | Ilham Aulia Majid           |
+1. Membuka halaman mutillidae dengan memasukkan url `IPmetasploit/mutillidae` seperti gambar berikut : gambar 1
 
-## Pendahuluan
-Sql Injection : SQL injection adalah sebuah teknik hacking yang menyalahgunakan celah keamanan pada database dari aplikasi. cara kerjanya adalah dengan menyisipkan perintah-perintah SQL melalu URL untuk di eksekusi oleh database.
+2. Pilih login : gambar 2
 
+3. Isi tanda petik satu ` ' ` di form login kolom nama : gambar 3
 
-## Dasar Teori
+4. Akan muncul tampilan error seperti berikut : gambar 4 
 
-## Kesimpulan dan Saran
+5. terlihat dari error tersebut dapat diartikan program backend rentan terhadap SQL injection
+
+6. ketik `' or 1=1-- ` di form login kolom nama (jangan lupa memberikan spasi setelah tanda `--`) gambar 5
+
+5. Hasilnya akan muncul seperti gambar berikut (login sebagai admin): gambar 6
+
+6. Setelah itu logout dan ketik `samurai` pada kolom nama kemudian masuk ke inspect element pada kolom password dan rubah tipe dari password menjadi bentuk teks: gambar 7 8 9
+
+7. Isi tanda petik satu ` ' ` pada kolom password kemudian login : gambar 10
+
+8. Masuk ke inspect element dan rubah kolom password seperti gambar berikut : gambar 12
+
+9. Kemudian isi form login dengan nama = `samurai` dan password `' or (1=1 and username='samurai')-- ` (jangan lupa memberikan spasi setelah tanda `--`)
+
+10. Hasilnya akan muncul seperti gambar berikut (login sebagai samurai) : gambar 14
+
+11. kemudian masuk ke mysql pada metasploit, dan jalankan sesuai gambar berikut : gabmar 15 16 17 18
+
+12. jalankan perintah perintah pada metasploit seperti pada gambar : gambar 19 20 21 22 23 24 25
