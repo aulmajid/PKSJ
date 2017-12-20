@@ -77,19 +77,12 @@
 ![1](cuckoo/18.png)
 <br>
 
-10. Masuk folder web 
-
-```cd .. ```
-
-```cd web```
+11. Jalankan perintah berikut ```cuckoo web runserver 0.0.0.0:8000```
+![1](cuckoo/999.png)
 <br>
 
-11. Jalankan perintah berikut ```./manage.py runserver```
-![1](cuckoo/cuckoo%20runserver.png)
-<br>
-
-12. Buka halaman ```127.0.0.1:8000``` pada browser.
-![1](cuckoo/19.png)
+12. Buka halaman ```0.0.0.0:8000``` pada browser.
+![1](cuckoo/992.png)
 <br>
 
 13. Buka Windows XP dari virtualbox.
@@ -120,6 +113,10 @@
 ![1](cuckoo/25.png)
 <br>
 
-20. Jalankan cuckoo dengan perintah ```./cuckoo.py ```
-![1](cuckoo/26.png)
+20. Jalankan cuckoo dengan perintah ```cuckoo ```
+![1](cuckoo/991.png)
+<br>
+
+21. Cuckoo akan melakukan analisis 
+![1](cuckoo/analysis_cuckoo.png)
 <br>
