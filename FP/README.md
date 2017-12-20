@@ -21,7 +21,14 @@ Sql Injection : SQL injection adalah sebuah teknik hacking yang menyalahgunakan 
 ### [Lesson 10](Mutillidae%20lesson%2010.md)
 ### [Lesson 11](Mutillidae%20lesson%2011.md)
 
+## Cuckoo
+
 ### [Cuckoo](Cuckoo.md)
+
+## Snort
+
+### [Snort](Snort.md)
+
 
 ## Kesimpulan dan Saran
 
