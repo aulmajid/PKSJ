@@ -1,6 +1,6 @@
 # Mutillidae Lesson 8
 
-#### SQL Injection (Contoh #1)
+### SQL Injection (Contoh #1)
 - Pada halaman User Info, lakukan inspect element pada form Name dan ubah nilai size menjadi 100.
 ```
 "size=100"`
@@ -14,7 +14,7 @@
 - Hasil error disebabkan karena jumlah field tidak sesuai.
 
 
-#### SQL Injection (Contoh #2)
+### SQL Injection (Contoh #2)
 - Ulangi langkah pada inspect element
 - Isi form Name dengan string berikut
 ```
@@ -24,7 +24,7 @@
 - Keterangan: Untuk mengetahui jumlah field pada tabel dengan diulang dengan mencoba-coba hingga tidak terjadi error. Pada contoh diatas jumlah field-nya ada 5 sehingga ditulis null sebanyak 5.
 - Hasilnya kosong karena nilai yang dimasukkan semuanya null.
 
-#### SQL Injection (Contoh #3)
+### SQL Injection (Contoh #3)
 - Ulangi langkah pada inspect element
 - Isi form Name dengan string berikut
 ```
@@ -32,7 +32,7 @@
 ```
 - Keterangan: Tujuannya adalah untuk mencari tahu urutan field pada tabel. Urutan field username, password, dan signature didapatkan sesuai dengan nilai yang dimasukkan.
 
-#### SQL Injection (Contoh #4)
+### SQL Injection (Contoh #4)
 - Ulangi langkah pada inspect element
 - Isi form Name dengan string berikut
 ```
@@ -46,7 +46,7 @@ Password berisi ccv
 Signature berisi expiration
 ```
 
-#### SQL Injection (Contoh #5)
+### SQL Injection (Contoh #5)
 - Tujuannya sama dengan Contoh #4 dengan perbedaan pada metode yang menggunakan curl.
 - Buka terminal dan jalankan perintah dibawah
 ```
