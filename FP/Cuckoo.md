@@ -50,62 +50,74 @@
 ```nano processing.conf```
 ```nano memory.conf```
 ```nano reporting.conf```
+
 ![1](cuckoo/12%200.png)
+
 ![1](cuckoo/12.png)
 ![1](cuckoo/13.png)
+
 ![1](cuckoo/14%200.png)
+
 ![1](cuckoo/14.png)
+
 ![1](cuckoo/15%200.png)
+
 ![1](cuckoo/15.png)
+
 ![1](cuckoo/16%200.png)
+
 ![1](cuckoo/16.png)
+
 ![1](cuckoo/17%200.png)
+
 ![1](cuckoo/17.png)
+
 ![1](cuckoo/18%200.png)
+
 ![1](cuckoo/18.png)
 <br>
 
-7. Masuk folder web 
+10. Masuk folder web 
 ```cd .. ```
 ```cd web```
 <br>
 
-8. Jalankan perintah berikut ```./manage.py runserver```
+11. Jalankan perintah berikut ```./manage.py runserver```
 ![1](cuckoo/cuckoo%20runserver.png)
 <br>
 
-9. Buka halaman ```127.0.0.1:8000``` pada browser.
+12. Buka halaman ```127.0.0.1:8000``` pada browser.
 ![1](cuckoo/19.png)
 <br>
 
-10. Buka Windows XP dari virtualbox.
+13. Buka Windows XP dari virtualbox.
 <br>
 
-11. Matikan firewall dari WindowsXP agar tak ada yang menghalangi pertukaran data antara host dan WindowsXP
+14. Matikan firewall dari WindowsXP agar tak ada yang menghalangi pertukaran data antara host dan WindowsXP
 ![1](cuckoo/20.png)
 <br>
 
-12. Setelah itu, share folder agent di dalam folder cuckoo dengan klik kanan folder agent, lalu pilih Local Network Share
+15. Setelah itu, share folder agent di dalam folder cuckoo dengan klik kanan folder agent, lalu pilih Local Network Share
 ![1](cuckoo/21.png)
 <br>
 
-13. Buka virtual box, klik kanan Windows XP, pilih preference, pilih shared folders, pilih folder agent.
+16. Buka virtual box, klik kanan Windows XP, pilih preference, pilih shared folders, pilih folder agent.
 ![1](cuckoo/22.png)
 <br>
 
-14. Salin file agent.py dari folder share diatas ke folder startup Widows XP
+17. Salin file agent.py dari folder share diatas ke folder startup Widows XP
 ![1](cuckoo/23.png)
 <br>
 
-15. Coba restart Windows XP untuk melihat berjalan atau tidak
+18. Coba restart Windows XP untuk melihat berjalan atau tidak
 ![1](cuckoo/24.png)
 <br>
 
-16. Sebelum menjalankan program cuckoo di host, masukkan perintah berikut di dalam folder cuckoo untuk mendapatkan utility lain yang diperlukan dalam cuckoo
+19. Sebelum menjalankan program cuckoo di host, masukkan perintah berikut di dalam folder cuckoo untuk mendapatkan utility lain yang diperlukan dalam cuckoo
 ```sudo ./utils/community.py -waf```
 ![1](cuckoo/25.png)
 <br>
 
-17. Jalankan cuckoo dengan perintah ```./cuckoo.py ```
+20. Jalankan cuckoo dengan perintah ```./cuckoo.py ```
 ![1](cuckoo/26.png)
 <br>
