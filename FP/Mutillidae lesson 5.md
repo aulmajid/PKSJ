@@ -1,6 +1,7 @@
 #### LESSON 5
 
-1. Membuka halaman mutillidae dengan memasukkan url `IPmetasploit/mutillidae` seperti gambar berikut : gambar 1
+1. Membuka halaman mutillidae dengan memasukkan url `IPmetasploit/mutillidae` seperti gambar berikut : 
+![](Mutillidae%20lesson%205/mutilidae%201.png)
 
 2. Pilih login : gambar 2
 
