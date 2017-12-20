@@ -31,7 +31,7 @@ ldconfig
 ln -s /usr/local/bin/snort /usr/sbin/snort
 snort -V
 ```
-1
+![](snort/1.PNG)
 
 ### Konfigurasi Snort
 - Buat struktur folder dan file rules
@@ -48,7 +48,7 @@ chmod -R 5775 /etc/snort/
 chmod -R 5775 /var/log/snort/ 
 chmod -R 5775 /usr/local/lib/snort
 chmod -R 5775 /usr/local/lib/snort_dynamicrules/
-2
+![](snort/2.PNG)
 - Salin file konfigurasi
 ```
 cd etc/
@@ -56,8 +56,8 @@ cp -avr *.conf *.map *.dtd /etc/snort/
 cd ..
 cp -avr src/dynamic-preprocessors/build/usr/local/lib/snort_dynamicpreprocessor/* /usr/local/lib/snort_dynamicpreprocessor/
 ```
-3
-4
+![](snort/3.PNG)
+![](snort/4.PNG)
 - Edit file konfigurasi
 ```
 sed -i "s/include \$RULE\_PATH/#include \$RULE\_PATH/" /etc/snort/snort.conf
@@ -74,12 +74,12 @@ var WHITE_LIST_PATH /etc/snort/rules
 var BLACK_LIST_PATH /etc/snort/rules 
 include $RULE_PATH/local.rules
 ```
-6
-7
+![](snort/6.PNG)
+![](snort/7.PNG)
 - Lalu jalankan konfigurasi tadi dengan perintah berikut
 ```
 snort -T -i eth0 -c /etc/snort/snort.conf
 snort -T -i enp0s3 -c /etc/snort/snort.conf
 ```
 - Hasilnya error
-8
+![](snort/8.PNG)
