@@ -1,5 +1,37 @@
 # Mutillidae Lesson 8
 
+### Union
+
+- Pada server, ketikkan perintah dibawah
+```
+sudo mysql
+```
+- Lalu jalankan query berikut
+```
+show databases; //untuk melihat daftar database
+use owasp10; //mengakses database owasp10
+show tables; //untuk melihat daftar tabel
+desc accounts; //untuk melihat tabel accounts
+desc credit_cards; //untuk melihat tabel credit_cards
+```
+- Lalu jalankan query select menggunakan union
+```
+select * from accounts union select ccid,ccnumber,ccv,expiration,null from credit_cards;
+```
+- Hasilnya adalah tabel gabungan dari tabel accounts dan credit_cards. Tujuannya adalah untuk melihat isi dari tabel credit_cards dari query tabel accounts.
+
+
+### Membuka Halaman User Info
+
+- Pada client, buka mutillidae dari browser
+```
+http://[ip_metasploit]/mutillidae
+```
+- Buka halaman User Info
+```
+OWASP TOP 10 -> A1 - SQL Injection -> SQLi Extract Data -> User Info
+```
+
 ### SQL Injection (Contoh #1)
 - Pada halaman User Info, lakukan inspect element pada form Name dan ubah nilai size menjadi 100.
 ```
