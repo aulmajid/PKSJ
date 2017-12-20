@@ -28,7 +28,3 @@ Sql Injection : SQL injection adalah sebuah teknik hacking yang menyalahgunakan 
 ## Snort
 
 ### [Snort](Snort.md)
-
-
-## Kesimpulan dan Saran
-
