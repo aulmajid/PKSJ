@@ -1,9 +1,10 @@
-# Tahap Pertama (Instalasi)
+# Instalasi
 
-## Langkah - langkah menginstal Cuckoo
+## Install Cuckoo
 
-1. Dalam tugas ini, kelompok kami menggunakan OS ubuntu 16.04 untuk menginstall cuckoo. Pertama tama install beberapa kebutuhan untuk menginstall cuckoo dengan mengetikkan ```sudo apt-get install python python-pip python-dev libffi-dev libssl-dev```
-![1](/cuckoo/1.png)
+1. Kelompok kami menggunakan OS ubuntu-16.04.3 untuk mengistall Cuckoo. Langkah pertama adalah download file cucko di halaman ``` https://downloads.cuckoosandbox.org/```
+
+![1](/cuckoo/cucko.png)
 <br>
 
 2. Lalu install ```sudo apt-get install libxml2-dev libxsli-dev```
